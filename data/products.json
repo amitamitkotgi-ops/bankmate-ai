@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "currency": "INR",
+  "synthetic": true,
+  "disclaimer": "Rates, tenures and limits are illustrative only (synthetic demo data). Actual terms depend on the bank's policy and your credit profile. This is not a loan approval, offer or financial advice.",
+  "products": [
+    {
+      "product_id": "savings_account",
+      "name": "Savings Account",
+      "category": "account",
+      "rate_min": 2.7,
+      "rate_max": 3.5,
+      "rate_basis": "p.a. interest on balance (illustrative)",
+      "minimum_balance": 5000,
+      "features": [
+        "Debit card",
+        "UPI and net banking",
+        "Quarterly interest credit"
+      ],
+      "description": "Everyday account for salaried people and students."
+    },
+    {
+      "product_id": "salary_account",
+      "name": "Salary Account",
+      "category": "account",
+      "rate_min": 2.7,
+      "rate_max": 3.5,
+      "rate_basis": "p.a. interest on balance (illustrative)",
+      "minimum_balance": 0,
+      "features": [
+        "Zero minimum balance",
+        "Free debit card",
+        "Free NEFT/IMPS"
+      ],
+      "description": "Zero-balance account for employees whose employer credits salary here."
+    },
+    {
+      "product_id": "current_account",
+      "name": "Current Account",
+      "category": "account",
+      "rate_min": 0.0,
+      "rate_max": 0.0,
+      "rate_basis": "no interest paid (illustrative)",
+      "minimum_balance": 25000,
+      "features": [
+        "High transaction limits",
+        "Overdraft facility (subject to approval)"
+      ],
+      "description": "Account for small businesses and professionals with many daily transactions."
+    },
+    {
+      "product_id": "fixed_deposit",
+      "name": "Fixed Deposit",
+      "category": "deposit",
+      "rate_min": 6.0,
+      "rate_max": 7.25,
+      "rate_basis": "p.a. (illustrative)",
+      "min_amount": 10000,
+      "max_amount": 20000000,
+      "min_tenure_months": 6,
+      "max_tenure_months": 120,
+      "features": [
+        "Fixed return",
+        "Premature withdrawal allowed with penalty"
+      ],
+      "description": "Lock in a fixed rate for a chosen period."
+    },
+    {
+      "product_id": "recurring_deposit",
+      "name": "Recurring Deposit",
+      "category": "deposit",
+      "rate_min": 5.8,
+      "rate_max": 6.9,
+      "rate_basis": "p.a. (illustrative)",
+      "min_amount": 500,
+      "max_amount": 100000,
+      "min_tenure_months": 6,
+      "max_tenure_months": 120,
+      "features": [
+        "Save a fixed amount every month"
+      ],
+      "description": "Build a savings habit with a small monthly deposit."
+    },
+    {
+      "product_id": "personal_loan",
+      "name": "Personal Loan",
+      "category": "loan",
+      "rate_min": 10.5,
+      "rate_max": 18.0,
+      "rate_basis": "p.a. (illustrative)",
+      "min_amount": 50000,
+      "max_amount": 2500000,
+      "min_tenure_months": 12,
+      "max_tenure_months": 60,
+      "min_age": 21,
+      "max_age": 60,
+      "min_monthly_income": 20000,
+      "max_foir": 0.5,
+      "processing_fee": "1.0% – 2.5% of loan amount (illustrative)",
+      "features": [
+        "No collateral",
+        "Quick processing"
+      ],
+      "documents_required": [
+        "Identity proof",
+        "Address proof",
+        "Last 3 salary slips"
+      ],
+      "description": "Unsecured loan for personal needs such as travel, medical or weddings."
+    },
+    {
+      "product_id": "education_loan",
+      "name": "Education Loan",
+      "category": "loan",
+      "rate_min": 7.0,
+      "rate_max": 11.5,
+      "rate_basis": "p.a. (illustrative)",
+      "min_amount": 100000,
+      "max_amount": 7500000,
+      "min_tenure_months": 12,
+      "max_tenure_months": 180,
+      "min_age": 18,
+      "max_age": 60,
+      "min_monthly_income": 0,
+      "max_foir": 0.5,
+      "processing_fee": "0.5% – 1.0% of loan amount (illustrative)",
+      "features": [
+        "Covers tuition and hostel",
+        "Moratorium during the course (illustrative)"
+      ],
+      "documents_required": [
+        "Admission letter",
+        "Fee structure",
+        "Co-applicant income proof"
+      ],
+      "description": "Loan for tuition, hostel and related costs of recognised courses."
+    },
+    {
+      "product_id": "home_loan",
+      "name": "Home Loan",
+      "category": "loan",
+      "rate_min": 8.35,
+      "rate_max": 9.8,
+      "rate_basis": "p.a. (illustrative)",
+      "min_amount": 500000,
+      "max_amount": 100000000,
+      "min_tenure_months": 60,
+      "max_tenure_months": 360,
+      "min_age": 21,
+      "max_age": 65,
+      "min_monthly_income": 30000,
+      "max_foir": 0.5,
+      "processing_fee": "0.35% – 1.0% of loan amount (illustrative)",
+      "features": [
+        "Long tenure",
+        "Property is the security"
+      ],
+      "documents_required": [
+        "Identity proof",
+        "Income proof",
+        "Property documents"
+      ],
+      "description": "Loan to buy, build or renovate a house."
+    },
+    {
+      "product_id": "auto_loan",
+      "name": "Auto Loan",
+      "category": "loan",
+      "rate_min": 8.9,
+      "rate_max": 12.5,
+      "rate_basis": "p.a. (illustrative)",
+      "min_amount": 100000,
+      "max_amount": 5000000,
+      "min_tenure_months": 12,
+      "max_tenure_months": 84,
+      "min_age": 21,
+      "max_age": 65,
+      "min_monthly_income": 25000,
+      "max_foir": 0.5,
+      "processing_fee": "0.5% – 1.5% of loan amount (illustrative)",
+      "features": [
+        "Vehicle is the security"
+      ],
+      "documents_required": [
+        "Identity proof",
+        "Income proof",
+        "Vehicle quotation"
+      ],
+      "description": "Loan to buy a new or used car or two-wheeler."
+    }
+  ]
+}

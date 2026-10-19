@@ -1,0 +1,19 @@
+# Backend
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.5
+python-dotenv>=1.0
+
+# LangGraph + Groq
+langgraph>=1.0
+langchain-core>=1.0
+langchain-groq>=1.0
+httpx>=0.27
+
+# Frontend
+streamlit>=1.40
+requests>=2.31
+pandas>=2.0
+
+# Tests
+pytest>=8.0
